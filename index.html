@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">    <!-- BEM (Block__element--modi) -->
+    <h1 class="header__title">Título Genérico</h1>
+    <ul class="header__nav desktop">
+      <li class="header__item">
+        <a class="header__link" href="">Home</a>
+      </li>
+      <li class="header__item">
+        <a class="header__link" href="">Nosotros</a>
+      </li>
+      <li class="header__item--last">
+        <a class="header__link" href="">Contacto</a>
+      </li>
+    </ul>
+    <button class="header__button desktop">Login</button>
+    <img class="header__icon mobile sidenav-trigger" src="img/hamburger.svg" alt="hamburger icon">
+  </header>
+
+  <section id="sidenav" class="sidenav">
+    <button class="sidenav__close sidenav-trigger">X</button>
+    <button class="sidenav__button">Login</button>
+    <ul class="sidenav__nav">
+      <li class="sidenav__item">
+        <a class="sidenav__link" href="">Home</a>
+      </li>
+      <li class="sidenav__item">
+        <a class="sidenav__link" href="">Nosotros</a>
+      </li>
+      <li class="sidenav__item--last">
+        <a class="sidenav__link" href="">Contacto</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="main">
+
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
